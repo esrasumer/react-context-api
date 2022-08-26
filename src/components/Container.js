@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import Button from './Button';
-import Header from './Header'
+import Profile from './Profile';
+// import Header from './Header'
 import ThemeContext from '../context/ThemeContext'
 
 
@@ -9,11 +10,12 @@ function Container() {
     return (
         <div className={`app ${theme === "dark" ? theme : ""}`}>
             {/* `app ${theme}` */}
-            <Header />
-            <hr />
+            {/* <Header /> */}
             <Button />
+            <hr />
+            <Profile />
         </div>
     )
 }
 
-export default Container
+export default Container;

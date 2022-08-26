@@ -1,0 +1,9 @@
+.app {
+  height: 100vh;
+  text-align: center;
+}
+
+.app.dark {
+  color: azure;
+  background-color: rgba(7, 7, 7, 0.884);
+}

@@ -14,7 +14,9 @@ export const ThemeProvider = ({ children }) => {
         setTheme,
     };
     return (
-        <ThemeContext.Provider value={values}>{children}</ThemeContext.Provider>
+        <ThemeContext.Provider value={values}>
+            {children}
+        </ThemeContext.Provider>
     );
 };
 

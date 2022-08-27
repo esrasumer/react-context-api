@@ -11,9 +11,10 @@ function Container() {
         <div className={`app ${theme === "dark" ? theme : ""}`}>
             {/* `app ${theme}` */}
             {/* <Header /> */}
+
             <Button />
             <hr />
-            <Profile />
+            <Profile  />
         </div>
     )
 }
